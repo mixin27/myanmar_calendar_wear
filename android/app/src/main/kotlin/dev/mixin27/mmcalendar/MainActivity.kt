@@ -1,4 +1,4 @@
-package dev.mixin27.myanmar_calendar_wear
+package dev.mixin27.mmcalendar
 
 import android.os.Bundle
 import androidx.annotation.NonNull

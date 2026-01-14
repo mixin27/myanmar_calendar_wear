@@ -1,19 +1,21 @@
 name: myanmar_calendar_wear
-description: Myanmar Calendar Wear OS app
+description: Myanmar Calendar for Wear OS app
 version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ^3.9.0
+  sdk: ^3.10.0
 
 dependencies:
-  bloc: ^9.0.1  
+  bloc: ^9.0.1
+  equatable: ^2.0.8
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
-  flutter_localizations:
-    sdk: flutter
+  flutter_svg: ^2.2.3
   intl: ^0.20.2
+  myanmar_calendar_dart: ^1.1.0
+  wear_plus: ^1.2.4
   wearable_rotary: ^2.0.2
 
 dev_dependencies:
@@ -24,5 +26,4 @@ dev_dependencies:
   very_good_analysis: ^10.0.0
 
 flutter:
-  generate: true
   uses-material-design: true

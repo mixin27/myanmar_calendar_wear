@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:myanmar_calendar_wear/ambient_mode/ambient_mode.dart';
 import 'package:myanmar_calendar_wear/app/app.dart';
-import 'package:myanmar_calendar_wear/counter/counter.dart';
+import 'package:myanmar_calendar_wear/features/day_details/views/day_details_screen.dart';
 
 import '../../helpers/helpers.dart';
 
@@ -14,7 +14,7 @@ void main() {
 
     testWidgets('renders CounterPage', (tester) async {
       await tester.pumpWidget(const App());
-      expect(find.byType(CounterPage), findsOneWidget);
+      expect(find.byType(DayDetailsScreen), findsOneWidget);
     });
 
     group('renders the correct color scheme', () {

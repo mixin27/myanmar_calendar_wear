@@ -14,7 +14,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "dev.mixin27.myanmar_calendar_wear"
+    namespace = "dev.mixin27.mmcalendar"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -28,9 +28,9 @@ android {
     }
 
     defaultConfig {
-        applicationId = "dev.mixin27.verygoodcore.myanmar_calendar_wear"
+        applicationId = "dev.mixin27.mmcalendar"
         minSdk = 30
-        targetSdk = 32
+        targetSdk = 34
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
