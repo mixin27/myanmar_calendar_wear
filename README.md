@@ -13,6 +13,16 @@ A complete WearOS application for displaying Myanmar calendar information with s
 - **Swipe Navigation**: Swipe left/right to navigate between days
 - **Today Quick Access**: Tap the "Today" button to jump to current date
 
+## 📸 Screenshots
+
+<div align="center">
+
+| Home View | More View | Language Settings |
+|-----------|-----------|-------------------|
+| ![Home](screenshots/home.png) | ![More](screenshots/home_more.png) | ![Language](screenshots/language_settings.png) |
+
+</div>
+
 ## Project Structure
 
 ```
