@@ -1,0 +1,7 @@
+{
+    "@@locale": "my",
+    "counterAppBarTitle": "ရေတွက်ခြင်း",
+    "@counterAppBarTitle": {
+        "description": "ရေတွက်စာမျက်နှာ၏ အပလီကေးရှင်းဘားတွင် ပြသထားသော စာသား"
+    }
+}
