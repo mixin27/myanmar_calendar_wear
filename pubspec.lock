@@ -576,14 +576,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.4"
-  wearable_rotary:
-    dependency: "direct main"
-    description:
-      name: wearable_rotary
-      sha256: dd67a417110a6212df87aefe49491e884a2c59e8c2f427f0f73b7403a7be16c5
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.3"
   web:
     dependency: transitive
     description:

@@ -1,6 +1,6 @@
 name: myanmar_calendar_wear
 description: Myanmar Calendar for Wear OS app
-version: 1.0.0+1
+version: 1.0.0+34100 # [targetSdk][xxx][yy][zz]
 publish_to: none
 
 environment:
@@ -16,7 +16,7 @@ dependencies:
   intl: ^0.20.2
   myanmar_calendar_dart: ^1.1.0
   wear_plus: ^1.2.4
-  wearable_rotary: ^2.0.2
+  # wearable_rotary: ^2.0.2
 
 dev_dependencies:
   bloc_test: ^10.0.0
